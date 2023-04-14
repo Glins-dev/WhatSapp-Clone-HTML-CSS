@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WhatsApp Web lone</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://kit.fontawesome.com/515863a368.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="toolbar-container">
+                <img class="user-photo" src="img/avatar1.png">
+                <div class="auxicons-toolbar-container">
+                    <i class="fa-duotone fa-spinner"></i>
+                    <i class="fa-solid fa-comment"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+            <div class="notification-container">
+                <i class="fa-solid fa-bell-slash"></i>
+                <p class="receive-notification">Receba notificações de novas mensagens</p>
+                <p class="activate-notification">
+                    Ativar notificações na aréa de trabalho
+                    <i class="fa-solid fa-angles-right"></i></p>
+            </div>
+            <div class="search-container">
+            <i id="contact-search" class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="search" id="search" placeholder="Procurar ou começar uma 
+            nova conversa"> 
+            </div>
+            <div class="contacts-container" >
+                <div class="contact-box active-chat">
+                    <img class="user-photo" src="img/avatar2.png">
+                    <div class="user-info">
+                        <p class="user-name">Sabrina Matos</p>
+                        <p class="user-messagepreview">
+                            <i class="fa-solid fa-check-double"></i>Oi, tudo bem?</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">18:30</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img class="user-photo" src="img/avatar3.png">
+                    <div class="user-info">
+                        <p class="user-name">João Augusto</p>
+                        <p class="user-messagepreview">
+                            Por onde você está ?
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">12:15</p>
+                        <p class="message-pending">3</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <img class="user-photo" src="img/avatar4.png">
+                    <div class="user-info">
+                        <p class="user-name">Marina Silva</p>
+                        <p class="user-messagepreview">
+                            Otimo trabalho !!!
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">10:45</p>
+                        <p class="message-pending">5</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img class="user-photo" src="img/avatar2.png">
+                    <p class="user-name">Sabrina Matos</p>
+                </div >
+                <ul class="chattools-container">
+                    <li><i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                    <li><i class="fa-solid fa-paperclip"></i></li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-messages">
+                <p class="guest-message">Ola,bom dia</p>
+                <p class="user-message">Oi, tudo bem?</p>
+            </div>
+            </div>
+
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
